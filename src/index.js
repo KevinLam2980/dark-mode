@@ -9,6 +9,7 @@ import {useDarkMode} from './hooks/useDarkMode'
 
 import "./styles.scss";
 
+
 const App = () => {
   const [coinData, setCoinData] = useState([]);
   const [darkMode, setDarkMode] = useDarkMode(false);
